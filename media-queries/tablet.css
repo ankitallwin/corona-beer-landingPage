@@ -1,0 +1,14 @@
+body {
+    background-color: #181A23;
+}
+
+body .right .titleTxt {
+    left: 30px;
+    top: 40px;
+    font-size: 60px;
+}
+
+.promoTxt {
+    top: 20px;
+    left: 70px;
+}

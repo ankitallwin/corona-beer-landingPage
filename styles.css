@@ -19,8 +19,6 @@ p {
 	color: #fff;
 }
 
-
-
 body .right .titleTxt {
 	position: relative;
 	left: 30px;
@@ -42,15 +40,21 @@ body .right .titleTxt {
 	word-spacing: 3px;
 }
 
-body .left,
-body .right {
+body .left {
   height: 100%;
+  width: 100%;
+  
+}
+
+body .right {
+	 height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 body .right {
   background-color:#181A23;
 }
@@ -90,9 +94,3 @@ body .left {
 	margin: 0px;
 	filter: contrast(280%);	
 }
-
-
-@media only screen and (max-device-width: 320px) {
-
-
-    }
