@@ -1,0 +1,29 @@
+body .right {
+	width: 1800px; }
+
+header .logo img {
+    padding: 40px;
+    height: 300px;
+    width: 250px;
+}
+
+.product {
+	left: 33%;
+}
+
+.product img {
+	height: 1200px;
+}
+
+
+body .right .titleTxt {
+    left: 70px;
+    top: -180px;
+    font-size: 140;
+}
+
+.promoTxt {
+	font-size: 28px;
+	top: -180px;
+	left: 60px;
+}

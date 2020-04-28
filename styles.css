@@ -1,0 +1,98 @@
+@font-face {
+	font-family: dinpro;
+	src: url("fonts/DINPro-Bold tr.ttf");
+}
+@font-face {
+	font-family: lora;
+	src: url("fonts/Lora.ttf");
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+	overflow: hidden;
+}
+
+p {
+	font-family: lora;
+	color: #fff;
+}
+
+
+
+body .right .titleTxt {
+	position: relative;
+	left: 30px;
+	top: 40px;
+	font-family:dinpro;
+	color: #fff;
+	font-size: 80px;
+	
+}
+
+.promoTxt {
+	height: 150px;
+	width: 440px;
+	justify-content:flex-start;
+	position: relative;
+	top: -20px;
+	left: 90px;
+	line-height: 25px;
+	word-spacing: 3px;
+}
+
+body .left,
+body .right {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .right {
+  background-color:#181A23;
+}
+body .left {
+  background-image: url("img/beer.jpg");
+	background-size: cover;
+}
+
+.product {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: fly 4s ease-in-out infinite;
+}
+
+@keyframes fly {
+      0% {
+            transform: translate(-50%, -46%);
+      }
+
+      50% {
+            transform: translate(-50%, -54%);
+      }
+
+      100% {
+            transform: translate(-50%, -46%);
+      }
+}
+
+
+.logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-left: 25px;
+	margin: 0px;
+	filter: contrast(280%);	
+}
+
+
+@media only screen and (max-device-width: 320px) {
+
+
+    }
